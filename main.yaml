@@ -1,0 +1,104 @@
+- Route All Tears créé par moi Majora_Speed 
+- Route conçu pour la 1.0.0 
+- Timer fini après avoir vue la dernière tears quand la quete est fini
+
+- Great Sky Island 1:
+  - Wings : 
+     notes: Dup jusqu'a 22 puis title
+     icon: chest
+     comment: opti stamina
+     movements: 
+      - [379,1500,-1620]
+      - [385.75,1500,-1649.75]
+      - [379.8125,15000,-1690.4375]
+  - Temple Of Time:
+     notes: Wing FLip et faire Early Sheild sans péter l'épée de légende et scan ToT
+     comment: Faire un comme en Any% pour la rusty
+     icon: shrine
+     movements: 
+      - [429.125,1500,-1684.25]
+      - [384.5,1500,-1438]
+      - [417,1500,-1354]
+      - [452.5625,1500,-1310.25]
+      - [452.75,1500,-884.0625]
+  # Warping to travel medallion. Order of the coordinates are the same as you would enter with the `coord` property
+  - _Warp::TravelMedallion<379.8125,15000,-1690.4375>:
+     icon:
+     comment: je mets travel médaillon pour le respawn pour FDC EA
+  - _Shrine::Gutanbac:
+     icon: Ascend
+     notes: une fois dans le shrine on lance la rusty on recup la rusty on kill Billy et QDS puis finish Ascend
+  - _Shrine::Inisa:
+     icon: Fuse
+     movements:
+      - [733.8125,1500,-1351.4375]
+      - [706,1500,-1351]
+      - [26.07, 1527.75, -1503.60]
+     notes: Faire EB version EA puis enter fuse et finish fuse
+     comment: Dans fuse recup espadon et dup 15 bombs et dup 4 sheild
+  - _Shrine::Ukouh:
+     icon: UH
+     notes: Quick FUH/Roms FUH et prendre Skew à la fin de UH 
+  - _Shrine::Nachoyah:
+     icon: RECALL
+     notes: ToT  puis tp Recall fuse bomb et finir recall
+     movements: 
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [367.4375,1500,-1750.5]
+      - [389.63, 2417.91, -1661.45]
+  - _Warp::Shrine::Ukouh
+  - Great Sky Island:
+     icon: TOUR
+     movements:
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [453.625,1500,-635.75]
+     notes: Soit prendre Skew soit faire sans Skew et ASF à la porte ToT skew before Godesse et scan end
+- Cart:
+  - _Warp::Shrine::Nachoyah:
+     color: red
+  - Fairy Island:
+     notes: En descendant de Recall prendre le chest avec la large zonai charge puis allée a l'ile des fées 
+     comment: Dup 15 charges et 20 fées environs, 28 ruby/topaz et faire un Pocket Rocket 
+     icon: fairy
+     movements:
+      - [499.5,1500,-1620]
+      - [936,1500,-2139]
+  - Cart:
+     notes: Partir vers draconis et use le dispenser
+     icon: Dispenser
+     coord: [1384,1500,-3246]
+- Tears:
+  - Dup Zonai:
+     notes: Dup 20 cart et 4 sticks
+     icon: zonai-dup
+     color: purple
+     coord: [1410,1500,-3240]
+  - _Tear::07:
+     notes: Cart Slide au Village d'Ecaraille
+  - _Tear::09:
+     notes: Cart Slide en faisant le tour du Mont Lanayru
+  - _Warp::Shrine::Nachoyah
+  - _Tear::10:
+     notes: Aller vers la Tear en Cart Slide 
+  - _Tear::04:
+     notes: Cart Slide vers le Chasm du Lac Hylia
+  - _Tear::03:
+     notes: Cart Slide vers Ordin
+  - _Tear::11:
+     notes: Cart Slide
+  - _Tear::08:
+     notes: Cart Slide
+  - _Tear::02: 
+     notes: Cart Slide
+  - _Tear::01:
+     notes: Cart Slide et parlé a Impa pour la quête
+  - _Tear::06:
+     notes: Cart Slide
+  - _Tear::05:
+     notes: Cart Slide
+  - _Tear::12: 
+     notes: Cart Slide vers la tear
+
+  
